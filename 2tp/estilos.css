@@ -1,0 +1,179 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+
+header {
+    background-color:white ;
+}
+
+.navbar .titulo {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    /* sacar el link (subrayado) */
+        padding: 20px;
+        text-align: left;
+        flex-direction: row;
+
+ }
+
+.header{
+    background-color: aquamarine;
+}
+
+
+ .navbar .titulo h1{
+     color: black;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }
+ 
+ .negrita { 
+    font-size: bold;
+ }
+    
+    
+
+.navbar-ul {
+    list-style: none;
+    /* sacar las viñetas (puntitos) */
+    display: flex;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+
+.navbar-a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+
+
+/* cuando estoy con el mouse arriba del elemento */
+.navbar-a:hover {
+    color: white;
+    filter: invert(1);
+
+}
+
+.enviar{
+    padding: 5px;
+    border-radius: 300px;
+}
+.borrar{
+    padding: 5px;
+    border-radius: 300px;
+    color: red;
+}
+.seccion {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.seccion-2 .tipos{
+   text-align: center;
+   border: 2px solid black;
+   border-radius: 500px;
+   background-color: black;
+   color: white;
+}
+
+.seccion-2 .tipos:hover{
+color:black;
+background-color: white;
+}
+
+
+.informacion{
+   
+    text-align: center;
+    font-size:x-large;
+    font-weight: 800;
+    font-family: initial;
+
+}
+.informacion .info{
+   font-size: medium;
+    text-decoration:underline;
+}
+
+
+section ul li {
+    list-style: none;
+}
+
+.navbar h1 {
+    color: black;
+
+}
+
+.container-queen {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    /* espacio entre img */
+    border: solid 8px black;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.container-queen img {
+    width: auto;
+    /* ancho */
+    height: 260px
+    /* alto */
+
+}
+
+footer {
+    background-color: #dcdcdc;
+    text-align: center;
+    font-style: 400px;
+ }
+     
+
+ footer .texto{
+     font-weight: 30px;
+ }
+
+.informacion {
+    text-align: center;
+    font-size: bold;
+}
+
+.iconos-rs {
+    margin-right: 5px;
+    height: 5px;
+    width: 10%;
+}
+
+
+
+
