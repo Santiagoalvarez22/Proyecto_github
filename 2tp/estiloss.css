@@ -50,11 +50,24 @@ footer {
     justify-content: space-between;
 }
 
+.fotoo {
+cursor: pointer;
+border: 5px solid black;
+transition-property: width;
+transition-duration: 2s;
+}
+
+.container-queen .fotoo:hover {
+width: 300px;
+height: 400px;
+}
 
 .foto{
     display: flex;
     margin-left: 16px;
     margin-right: 25 px;
+    
+
 }
 
 .navbar .titulo {
@@ -200,7 +213,8 @@ footer .texto{
 .navbar .titulo h1{
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-weight: bold;
+    font-weight: bold;
+   
 }
 
 .negrita { 
@@ -213,3 +227,4 @@ footer .texto{
 
 
 
+  
