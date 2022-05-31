@@ -55,6 +55,7 @@ cursor: pointer;
 border: 5px solid black;
 transition-property: width;
 transition-duration: 2s;
+
 }
 
 .container-queen .fotoo:hover {
@@ -128,7 +129,6 @@ height: 400px;
     font-weight: 800;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-
 }
 
 .info .info-1{
