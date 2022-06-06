@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+
+#grid-area{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    "primer primer"
+    "encabezado encabezado"
+    "fotos fotos"
+    "video video"
+    "info info"
+    "footer footer"
+    ;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+header {
+    background: rgb(230, 223, 223);
+    grid-area: encabezado;
+}
+ 
+.primer {
+    grid-area: primer;
+}
+
+aside {
+    grid-area: video;
+}
+
+section {
+    grid-area: info;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.navbar {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotoo {
+cursor: pointer;
+border: 5px solid black;
+transition-property: width;
+transition-duration: 2s;
+
+}
+
+.container-queen .fotoo:hover {
+width: 300px;
+height: 400px;
+}
+
+.foto{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 25 px;
+    
+
+}
+
+.navbar .titulo {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    /* sacar el link (subrayado) */
+        padding: 20px;
+        text-align: left;
+        flex-direction: row;
+
+ }
+
+
+.navbar-ul {
+    list-style: none;
+    /* sacar las viñetas (puntitos) */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+}
+
+.navbar-a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    bottom: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+
+/* cuando estoy con el mouse arriba del elemento */
+.navbar-a:hover {
+    color: white;
+    filter: invert(1);
+
+}
+
+.info{
+    color: black;
+    text-align: center;
+    font-size:x-large;
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.info .info-1{
+    font-size: medium;
+    text-decoration: none;
+    list-style: none;
+}
+
+section ul li {
+    list-style: none;
+}
+
+.navbar h1 {
+    color: black;
+
+}
+
+.container-queen {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    /* espacio entre img */
+    border: solid 8px black;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+aside {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section {
+    background:  rgb(230, 223, 223);
+    height: auto;
+    margin-right: 5px;
+    width: 1350px;
+}   
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container-queen img {
+    width: auto;
+    /* ancho */
+    height: 260px
+    /* alto */
+
+}
+
+footer .texto{
+    margin-top: 50px;
+}
+
+.iconos-rs {
+    margin-right: 5px;
+    height: 40px;
+    width: 23px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
+
+}
+
+
+.navbar .titulo h1{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+   
+}
+
+.negrita { 
+    font-size: bold;
+ }
+    
+
+
+
+
+
+
+  
